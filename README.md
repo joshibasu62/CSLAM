@@ -1,5 +1,5 @@
 # CSLAM
-## Make your workspace
+### Make your workspace
 mkdir -p ~/fast_lio2_ws/src  
 cd ~/fast_lio2_ws/src  
 
@@ -15,8 +15,8 @@ cmake .. && make -j
 sudo make install  
 
 ### After the build fails add following header
-#include <cstdint>   
-### to 
+'#include <cstdint>'   
+Inside  
 ~/fast_lio2_ws/src/Livox-SDK2/sdk_core/comm/define.h  
 ~/fast_lio2_ws/src/Livox-SDK2/sdk_core/logger_handler/file_manager.h  
 
@@ -35,7 +35,7 @@ cd ws_livox
 rosdep install -y -i --from-paths src/livox_ros_driver2  
 colcon build --symlink-install --cmake-args -DCMAKE_BUILD_TYPE=Release -Wno-dev  
 
-# after building the livox_driver you need to source it before building Fast_lio_ros2 inside your bashrc.
+### after building the livox_driver you need to source it before building Fast_lio_ros2 inside your bashrc.
 source ~/fast_lio2_ws/src/ws_livox/install/setup.bash
 
 # Ericsii's FAST_LIO ROS2 wrapper
