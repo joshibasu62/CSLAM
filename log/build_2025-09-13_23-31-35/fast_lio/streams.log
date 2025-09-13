@@ -1,0 +1,329 @@
+[0.031s] Invoking command in '/home/basanta-joshi/fast_lio2_ws/build/fast_lio': AMENT_PREFIX_PATH=/home/basanta-joshi/fast_lio2_ws/install/livox_ros_driver2:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/basanta-joshi/fast_lio2_ws/install/livox_ros_driver2:/home/basanta-joshi/fast_lio2_ws/src/ws_livox/install/livox_ros_driver2:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/basanta-joshi/fast_lio2_ws/install/livox_ros_driver2/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/basanta-joshi/fast_lio2_ws/install/livox_ros_driver2/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake /home/basanta-joshi/fast_lio2_ws/src/FAST_LIO_ROS2 -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/basanta-joshi/fast_lio2_ws/install/fast_lio
+[0.189s] -- The C compiler identification is GNU 13.3.0
+[0.325s] -- The CXX compiler identification is GNU 13.3.0
+[0.378s] -- Detecting C compiler ABI info
+[0.650s] -- Detecting C compiler ABI info - done
+[0.683s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.683s] -- Detecting C compile features
+[0.685s] -- Detecting C compile features - done
+[0.716s] -- Detecting CXX compiler ABI info
+[1.026s] -- Detecting CXX compiler ABI info - done
+[1.054s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.055s] -- Detecting CXX compile features
+[1.057s] -- Detecting CXX compile features - done
+[1.059s] [0mCurrent CPU archtecture: x86_64[0m
+[1.077s] [0mProcesser number:  16[0m
+[1.077s] [0mcore for MP: 3[0m
+[2.249s] [33mCMake Warning (dev) at CMakeLists.txt:47 (find_package):
+[2.250s]   Policy CMP0148 is not set: The FindPythonInterp and FindPythonLibs modules
+[2.250s]   are removed.  Run "cmake --help-policy CMP0148" for policy details.  Use
+[2.251s]   the cmake_policy command to set the policy and suppress this warning.
+[2.251s] 
+[2.251s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[2.251s] [0m
+[2.350s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.12.so (found version "3.12.3") 
+[2.364s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[2.859s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[3.094s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[3.266s] -- Found rclcpp: 28.1.9 (/opt/ros/jazzy/share/rclcpp/cmake)
+[3.419s] -- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[3.475s] -- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[3.538s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.611s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.866s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[3.880s] -- Found rmw_fastrtps_cpp: 8.4.2 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[4.089s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[4.128s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[4.190s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[4.461s] -- Found rclcpp_components: 28.1.9 (/opt/ros/jazzy/share/rclcpp_components/cmake)
+[4.601s] -- Found geometry_msgs: 5.3.6 (/opt/ros/jazzy/share/geometry_msgs/cmake)
+[4.721s] -- Found nav_msgs: 5.3.6 (/opt/ros/jazzy/share/nav_msgs/cmake)
+[4.827s] -- Found sensor_msgs: 5.3.6 (/opt/ros/jazzy/share/sensor_msgs/cmake)
+[4.916s] -- Found std_srvs: 5.3.6 (/opt/ros/jazzy/share/std_srvs/cmake)
+[4.989s] -- Found visualization_msgs: 5.3.6 (/opt/ros/jazzy/share/visualization_msgs/cmake)
+[5.106s] -- Found pcl_ros: 2.6.2 (/opt/ros/jazzy/share/pcl_ros/cmake)
+[5.411s] [33mCMake Warning (dev) at /usr/lib/x86_64-linux-gnu/cmake/pcl/Modules/FindFLANN.cmake:45 (find_package):
+[5.411s]   Policy CMP0144 is not set: find_package uses upper-case <PACKAGENAME>_ROOT
+[5.411s]   variables.  Run "cmake --help-policy CMP0144" for policy details.  Use the
+[5.412s]   cmake_policy command to set the policy and suppress this warning.
+[5.412s] 
+[5.412s]   CMake variable FLANN_ROOT is set to:
+[5.412s] 
+[5.412s]     /usr
+[5.412s] 
+[5.412s]   For compatibility, find_package is ignoring the variable, but code in a
+[5.413s]   .cmake module might still use it.
+[5.413s] Call Stack (most recent call first):
+[5.413s]   /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:261 (find_package)
+[5.413s]   /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:306 (find_flann)
+[5.413s]   /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:570 (find_external_library)
+[5.413s]   /opt/ros/jazzy/share/pcl_conversions/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)
+[5.413s]   /opt/ros/jazzy/share/pcl_conversions/cmake/pcl_conversionsConfig.cmake:41 (include)
+[5.413s]   /opt/ros/jazzy/share/pcl_ros/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)
+[5.414s]   /opt/ros/jazzy/share/pcl_ros/cmake/pcl_rosConfig.cmake:41 (include)
+[5.414s]   CMakeLists.txt:60 (find_package)
+[5.414s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[5.414s] [0m
+[5.415s] -- Found flann version 1.9.2
+[5.421s] -- Found OpenMP_CXX: -fopenmp (found version "4.5") 
+[5.422s] -- Found OpenMP: TRUE (found version "4.5") found components: CXX 
+[9.561s] -- Checking for module 'libusb-1.0'
+[9.609s] --   Found libusb-1.0, version 1.0.27
+[9.728s] -- Found libusb: /usr/lib/x86_64-linux-gnu/libusb-1.0.so  
+[9.732s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[9.918s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[9.924s] -- Found Pcap: /usr/lib/x86_64-linux-gnu/libpcap.so  
+[9.960s] -- Found ZLIB: /usr/lib/x86_64-linux-gnu/libz.so (found version "1.3")  
+[10.004s] -- Found PNG: /usr/lib/x86_64-linux-gnu/libpng.so (found version "1.6.43") 
+[11.355s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[11.371s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[12.579s] -- Found Qhull version 8.0.2
+[13.650s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[14.798s] -- Found PCL_COMMON: /usr/lib/x86_64-linux-gnu/libpcl_common.so  
+[14.802s] -- Found PCL_KDTREE: /usr/lib/x86_64-linux-gnu/libpcl_kdtree.so  
+[14.807s] -- Found PCL_OCTREE: /usr/lib/x86_64-linux-gnu/libpcl_octree.so  
+[14.810s] -- Found PCL_SEARCH: /usr/lib/x86_64-linux-gnu/libpcl_search.so  
+[14.815s] -- Found PCL_SAMPLE_CONSENSUS: /usr/lib/x86_64-linux-gnu/libpcl_sample_consensus.so  
+[14.819s] -- Found PCL_FILTERS: /usr/lib/x86_64-linux-gnu/libpcl_filters.so  
+[14.820s] -- Found PCL_2D: /usr/include/pcl-1.14  
+[14.821s] -- Found PCL_GEOMETRY: /usr/include/pcl-1.14  
+[14.825s] -- Found PCL_IO: /usr/lib/x86_64-linux-gnu/libpcl_io.so  
+[14.829s] -- Found PCL_FEATURES: /usr/lib/x86_64-linux-gnu/libpcl_features.so  
+[14.833s] -- Found PCL_ML: /usr/lib/x86_64-linux-gnu/libpcl_ml.so  
+[14.837s] -- Found PCL_SEGMENTATION: /usr/lib/x86_64-linux-gnu/libpcl_segmentation.so  
+[14.842s] -- Found PCL_VISUALIZATION: /usr/lib/x86_64-linux-gnu/libpcl_visualization.so  
+[14.846s] -- Found PCL_SURFACE: /usr/lib/x86_64-linux-gnu/libpcl_surface.so  
+[14.851s] -- Found PCL_REGISTRATION: /usr/lib/x86_64-linux-gnu/libpcl_registration.so  
+[14.855s] -- Found PCL_KEYPOINTS: /usr/lib/x86_64-linux-gnu/libpcl_keypoints.so  
+[14.859s] -- Found PCL_TRACKING: /usr/lib/x86_64-linux-gnu/libpcl_tracking.so  
+[14.864s] -- Found PCL_RECOGNITION: /usr/lib/x86_64-linux-gnu/libpcl_recognition.so  
+[14.868s] -- Found PCL_STEREO: /usr/lib/x86_64-linux-gnu/libpcl_stereo.so  
+[14.873s] -- Found PCL_APPS: /usr/lib/x86_64-linux-gnu/libpcl_apps.so  
+[14.875s] -- Found PCL_IN_HAND_SCANNER: /usr/include/pcl-1.14  
+[14.876s] -- Found PCL_MODELER: /usr/include/pcl-1.14  
+[14.878s] -- Found PCL_POINT_CLOUD_EDITOR: /usr/include/pcl-1.14  
+[14.882s] -- Found PCL_OUTOFCORE: /usr/lib/x86_64-linux-gnu/libpcl_outofcore.so  
+[14.886s] -- Found PCL_PEOPLE: /usr/lib/x86_64-linux-gnu/libpcl_people.so  
+[15.411s] -- Found eigen3_cmake_module: 0.3.0 (/opt/ros/jazzy/share/eigen3_cmake_module/cmake)
+[15.416s] -- Found Eigen3: TRUE (found version "3.4.90") 
+[15.417s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[15.431s] -- Found livox_ros_driver2: 1.0.0 (/home/basanta-joshi/fast_lio2_ws/install/livox_ros_driver2/share/livox_ros_driver2/cmake)
+[15.524s] -- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)
+[15.587s] -- Found rosidl_adapter: 4.6.5 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+[15.595s] -- Found Eigen3: TRUE  
+[15.596s] [33mCMake Warning (dev) at CMakeLists.txt:81 (find_package):
+[15.596s]   Policy CMP0074 is not set: find_package uses <PackageName>_ROOT variables.
+[15.596s]   Run "cmake --help-policy CMP0074" for policy details.  Use the cmake_policy
+[15.596s]   command to set the policy and suppress this warning.
+[15.596s] 
+[15.596s]   CMake variable PCL_ROOT is set to:
+[15.596s] 
+[15.597s]     /usr
+[15.597s] 
+[15.597s]   For compatibility, CMake is ignoring the variable.
+[15.597s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[15.597s] [0m
+[15.617s] -- PCL: /usr/include/pcl-1.14
+[15.618s] [0mEigen:[0m
+[17.416s] -- Found ament_cmake_ros: 0.12.0 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)
+[19.402s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[20.297s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[20.308s] -- Found python_cmake_module: 0.11.1 (/opt/ros/jazzy/share/python_cmake_module/cmake)
+[20.710s] -- Found PythonExtra: /usr/bin/python3  
+[22.174s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter Development NumPy Development.Module Development.Embed 
+[22.272s] -- Configuring done (22.2s)
+[22.418s] -- Generating done (0.1s)
+[22.450s] -- Build files have been written to: /home/basanta-joshi/fast_lio2_ws/build/fast_lio
+[22.519s] Invoked command in '/home/basanta-joshi/fast_lio2_ws/build/fast_lio' returned '0': AMENT_PREFIX_PATH=/home/basanta-joshi/fast_lio2_ws/install/livox_ros_driver2:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/basanta-joshi/fast_lio2_ws/install/livox_ros_driver2:/home/basanta-joshi/fast_lio2_ws/src/ws_livox/install/livox_ros_driver2:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/basanta-joshi/fast_lio2_ws/install/livox_ros_driver2/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/basanta-joshi/fast_lio2_ws/install/livox_ros_driver2/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake /home/basanta-joshi/fast_lio2_ws/src/FAST_LIO_ROS2 -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/basanta-joshi/fast_lio2_ws/install/fast_lio
+[22.520s] Invoking command in '/home/basanta-joshi/fast_lio2_ws/build/fast_lio': AMENT_PREFIX_PATH=/home/basanta-joshi/fast_lio2_ws/install/livox_ros_driver2:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/basanta-joshi/fast_lio2_ws/install/livox_ros_driver2:/home/basanta-joshi/fast_lio2_ws/src/ws_livox/install/livox_ros_driver2:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/basanta-joshi/fast_lio2_ws/install/livox_ros_driver2/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/basanta-joshi/fast_lio2_ws/install/livox_ros_driver2/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/basanta-joshi/fast_lio2_ws/build/fast_lio -- -j16 -l16
+[22.691s] [  2%] [34m[1mGenerating type hashes for ROS interfaces[0m
+[22.707s] [  2%] Built target ament_cmake_python_symlink_fast_lio
+[23.340s] running egg_info
+[23.343s] creating fast_lio.egg-info
+[23.385s] [  2%] Built target fast_lio__rosidl_generator_type_description
+[23.400s] writing fast_lio.egg-info/PKG-INFO
+[23.401s] writing dependency_links to fast_lio.egg-info/dependency_links.txt
+[23.401s] writing top-level names to fast_lio.egg-info/top_level.txt
+[23.401s] writing manifest file 'fast_lio.egg-info/SOURCES.txt'
+[23.417s] [  5%] [34m[1mGenerating C code for ROS interfaces[0m
+[23.443s] [  7%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[23.564s] reading manifest file 'fast_lio.egg-info/SOURCES.txt'
+[23.566s] writing manifest file 'fast_lio.egg-info/SOURCES.txt'
+[23.652s] [  7%] Built target ament_cmake_python_build_fast_lio_egg
+[24.274s] [  7%] Built target fast_lio__cpp
+[24.335s] [ 10%] [32mBuilding C object CMakeFiles/fast_lio__rosidl_generator_c.dir/rosidl_generator_c/fast_lio/msg/detail/pose6_d__description.c.o[0m
+[24.336s] [ 13%] [32mBuilding C object CMakeFiles/fast_lio__rosidl_generator_c.dir/rosidl_generator_c/fast_lio/msg/detail/pose6_d__functions.c.o[0m
+[24.337s] [ 15%] [32mBuilding C object CMakeFiles/fast_lio__rosidl_generator_c.dir/rosidl_generator_c/fast_lio/msg/detail/pose6_d__type_support.c.o[0m
+[24.584s] [ 18%] [32m[1mLinking C shared library libfast_lio__rosidl_generator_c.so[0m
+[24.701s] [ 18%] Built target fast_lio__rosidl_generator_c
+[24.733s] [ 21%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[24.735s] [ 23%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[24.736s] [ 28%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[24.736s] [ 28%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[24.736s] [ 31%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[24.736s] [ 34%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[25.494s] [ 36%] [32mBuilding CXX object CMakeFiles/fast_lio__rosidl_typesupport_c.dir/rosidl_typesupport_c/fast_lio/msg/pose6_d__type_support.cpp.o[0m
+[25.525s] [ 39%] [32mBuilding CXX object CMakeFiles/fast_lio__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/fast_lio/msg/pose6_d__type_support.cpp.o[0m
+[25.546s] [ 42%] [32mBuilding CXX object CMakeFiles/fast_lio__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/fast_lio/msg/detail/pose6_d__type_support.cpp.o[0m
+[25.583s] [ 44%] [32mBuilding CXX object CMakeFiles/fast_lio__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/fast_lio/msg/detail/dds_fastrtps/pose6_d__type_support.cpp.o[0m
+[25.622s] [ 47%] [32m[1mLinking CXX shared library libfast_lio__rosidl_typesupport_c.so[0m
+[25.641s] [ 50%] [32mBuilding CXX object CMakeFiles/fast_lio__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/fast_lio/msg/detail/pose6_d__type_support_c.cpp.o[0m
+[25.686s] [ 52%] [32mBuilding C object CMakeFiles/fast_lio__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/fast_lio/msg/detail/pose6_d__type_support.c.o[0m
+[25.751s] [ 52%] Built target fast_lio__rosidl_typesupport_c
+[25.891s] [ 55%] [32m[1mLinking C shared library libfast_lio__rosidl_typesupport_introspection_c.so[0m
+[25.978s] [ 55%] Built target fast_lio__rosidl_typesupport_introspection_c
+[26.301s] [ 57%] [32m[1mLinking CXX shared library libfast_lio__rosidl_typesupport_cpp.so[0m
+[26.405s] [ 57%] Built target fast_lio__rosidl_typesupport_cpp
+[26.438s] [ 60%] [32m[1mLinking CXX shared library libfast_lio__rosidl_typesupport_introspection_cpp.so[0m
+[26.460s] [ 63%] [32mBuilding CXX object CMakeFiles/fastlio_mapping.dir/src/laserMapping.cpp.o[0m
+[26.460s] [ 65%] [32mBuilding CXX object CMakeFiles/fastlio_mapping.dir/include/ikd-Tree/ikd_Tree.cpp.o[0m
+[26.461s] [ 68%] [32mBuilding CXX object CMakeFiles/fastlio_mapping.dir/src/preprocess.cpp.o[0m
+[26.543s] [ 68%] Built target fast_lio__rosidl_typesupport_introspection_cpp
+[26.735s] [ 71%] [32m[1mLinking CXX shared library libfast_lio__rosidl_typesupport_fastrtps_c.so[0m
+[26.785s] [ 73%] [32m[1mLinking CXX shared library libfast_lio__rosidl_typesupport_fastrtps_cpp.so[0m
+[26.866s] [ 73%] Built target fast_lio__rosidl_typesupport_fastrtps_c
+[26.901s] [ 73%] Built target fast_lio__rosidl_typesupport_fastrtps_cpp
+[26.947s] [ 73%] Built target fast_lio
+[26.999s] [ 76%] [34m[1mGenerating Python code for ROS interfaces[0m
+[27.829s] [ 76%] Built target fast_lio__py
+[27.873s] [ 78%] [32mBuilding C object CMakeFiles/fast_lio__rosidl_generator_py.dir/rosidl_generator_py/fast_lio/msg/_pose6_d_s.c.o[0m
+[28.262s] [ 81%] [32m[1mLinking C shared library libfast_lio__rosidl_generator_py.so[0m
+[28.375s] [ 81%] Built target fast_lio__rosidl_generator_py
+[28.430s] [ 84%] [32mBuilding C object CMakeFiles/fast_lio_s__rosidl_typesupport_introspection_c.dir/rosidl_generator_py/fast_lio/_fast_lio_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[28.431s] [ 86%] [32mBuilding C object CMakeFiles/fast_lio_s__rosidl_typesupport_fastrtps_c.dir/rosidl_generator_py/fast_lio/_fast_lio_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[28.432s] [ 89%] [32mBuilding C object CMakeFiles/fast_lio_s__rosidl_typesupport_c.dir/rosidl_generator_py/fast_lio/_fast_lio_s.ep.rosidl_typesupport_c.c.o[0m
+[28.742s] [ 92%] [32m[1mLinking C shared module rosidl_generator_py/fast_lio/fast_lio_s__rosidl_typesupport_introspection_c.so[0m
+[28.749s] [ 94%] [32m[1mLinking C shared module rosidl_generator_py/fast_lio/fast_lio_s__rosidl_typesupport_fastrtps_c.so[0m
+[28.776s] [ 97%] [32m[1mLinking C shared module rosidl_generator_py/fast_lio/fast_lio_s__rosidl_typesupport_c.so[0m
+[28.835s] [ 97%] Built target fast_lio_s__rosidl_typesupport_introspection_c
+[28.837s] [ 97%] Built target fast_lio_s__rosidl_typesupport_fastrtps_c
+[28.868s] [ 97%] Built target fast_lio_s__rosidl_typesupport_c
+[36.786s] In file included from [01m[K/usr/include/boost/bind/detail/requires_cxx11.hpp:9[m[K,
+[36.786s]                  from [01m[K/usr/include/boost/bind/bind.hpp:24[m[K,
+[36.786s]                  from [01m[K/usr/include/boost/bind.hpp:29[m[K,
+[36.786s]                  from [01m[K/home/basanta-joshi/fast_lio2_ws/src/FAST_LIO_ROS2/include/IKFoM_toolkit/esekfom/esekfom.hpp:42[m[K,
+[36.786s]                  from [01m[K/home/basanta-joshi/fast_lio2_ws/src/FAST_LIO_ROS2/include/use-ikfom.hpp:4[m[K,
+[36.786s]                  from [01m[K/home/basanta-joshi/fast_lio2_ws/src/FAST_LIO_ROS2/src/IMU_Processing.hpp:22[m[K,
+[36.786s]                  from [01m[K/home/basanta-joshi/fast_lio2_ws/src/FAST_LIO_ROS2/src/laserMapping.cpp:47[m[K:
+[36.786s] [01m[K/usr/include/boost/bind.hpp:36:1:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: The practice of declaring the Bind placeholders (_1, _2, ...) in the global namespace is deprecated. Please use <boost/bind/bind.hpp> + using namespace boost::placeholders, or define BOOST_BIND_GLOBAL_PLACEHOLDERS to retain the current behavior.[m[K’
+[36.787s]    36 | [01;36m[KBOOST_PRAGMA_MESSAGE[m[K(
+[36.787s]       | [01;36m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[106.248s] [100%] [32m[1mLinking CXX executable fastlio_mapping[0m
+[108.947s] [100%] Built target fastlio_mapping
+[108.965s] Invoked command in '/home/basanta-joshi/fast_lio2_ws/build/fast_lio' returned '0': AMENT_PREFIX_PATH=/home/basanta-joshi/fast_lio2_ws/install/livox_ros_driver2:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/basanta-joshi/fast_lio2_ws/install/livox_ros_driver2:/home/basanta-joshi/fast_lio2_ws/src/ws_livox/install/livox_ros_driver2:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/basanta-joshi/fast_lio2_ws/install/livox_ros_driver2/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/basanta-joshi/fast_lio2_ws/install/livox_ros_driver2/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/basanta-joshi/fast_lio2_ws/build/fast_lio -- -j16 -l16
+[108.967s] Invoking command in '/home/basanta-joshi/fast_lio2_ws/build/fast_lio': AMENT_PREFIX_PATH=/home/basanta-joshi/fast_lio2_ws/install/livox_ros_driver2:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/basanta-joshi/fast_lio2_ws/install/livox_ros_driver2:/home/basanta-joshi/fast_lio2_ws/src/ws_livox/install/livox_ros_driver2:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/basanta-joshi/fast_lio2_ws/install/livox_ros_driver2/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/basanta-joshi/fast_lio2_ws/install/livox_ros_driver2/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/basanta-joshi/fast_lio2_ws/build/fast_lio
+[108.979s] -- Install configuration: "Release"
+[108.980s] -- Execute custom install script
+[108.980s] -- Symlinking: /home/basanta-joshi/fast_lio2_ws/install/fast_lio/share/ament_index/resource_index/rosidl_interfaces/fast_lio
+[108.993s] -- Symlinking: /home/basanta-joshi/fast_lio2_ws/install/fast_lio/share/fast_lio/msg/Pose6D.json
+[109.007s] -- Symlinking: /home/basanta-joshi/fast_lio2_ws/install/fast_lio/include/fast_lio/fast_lio/msg/detail/pose6_d__functions.h
+[109.019s] -- Symlinking: /home/basanta-joshi/fast_lio2_ws/install/fast_lio/include/fast_lio/fast_lio/msg/detail/pose6_d__struct.h
+[109.031s] -- Symlinking: /home/basanta-joshi/fast_lio2_ws/install/fast_lio/include/fast_lio/fast_lio/msg/detail/pose6_d__type_support.h
+[109.045s] -- Symlinking: /home/basanta-joshi/fast_lio2_ws/install/fast_lio/include/fast_lio/fast_lio/msg/pose6_d.h
+[109.057s] -- Symlinking: /home/basanta-joshi/fast_lio2_ws/install/fast_lio/include/fast_lio/fast_lio/msg/rosidl_generator_c__visibility_control.h
+[109.070s] -- Symlinking: /home/basanta-joshi/fast_lio2_ws/install/fast_lio/share/fast_lio/environment/library_path.sh
+[109.082s] -- Symlinking: /home/basanta-joshi/fast_lio2_ws/install/fast_lio/share/fast_lio/environment/library_path.dsv
+[109.096s] -- Symlinking: /home/basanta-joshi/fast_lio2_ws/install/fast_lio/include/fast_lio/fast_lio/msg/detail/pose6_d__rosidl_typesupport_fastrtps_c.h
+[109.108s] -- Symlinking: /home/basanta-joshi/fast_lio2_ws/install/fast_lio/include/fast_lio/fast_lio/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[109.120s] -- Symlinking: /home/basanta-joshi/fast_lio2_ws/install/fast_lio/include/fast_lio/fast_lio/msg/detail/pose6_d__builder.hpp
+[109.133s] -- Symlinking: /home/basanta-joshi/fast_lio2_ws/install/fast_lio/include/fast_lio/fast_lio/msg/detail/pose6_d__struct.hpp
+[109.147s] -- Symlinking: /home/basanta-joshi/fast_lio2_ws/install/fast_lio/include/fast_lio/fast_lio/msg/detail/pose6_d__traits.hpp
+[109.159s] -- Symlinking: /home/basanta-joshi/fast_lio2_ws/install/fast_lio/include/fast_lio/fast_lio/msg/detail/pose6_d__type_support.hpp
+[109.174s] -- Symlinking: /home/basanta-joshi/fast_lio2_ws/install/fast_lio/include/fast_lio/fast_lio/msg/pose6_d.hpp
+[109.185s] -- Symlinking: /home/basanta-joshi/fast_lio2_ws/install/fast_lio/include/fast_lio/fast_lio/msg/rosidl_generator_cpp__visibility_control.hpp
+[109.198s] -- Symlinking: /home/basanta-joshi/fast_lio2_ws/install/fast_lio/include/fast_lio/fast_lio/msg/detail/pose6_d__rosidl_typesupport_fastrtps_cpp.hpp
+[109.211s] -- Symlinking: /home/basanta-joshi/fast_lio2_ws/install/fast_lio/include/fast_lio/fast_lio/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[109.224s] -- Symlinking: /home/basanta-joshi/fast_lio2_ws/install/fast_lio/include/fast_lio/fast_lio/msg/detail/pose6_d__rosidl_typesupport_introspection_c.h
+[109.236s] -- Symlinking: /home/basanta-joshi/fast_lio2_ws/install/fast_lio/include/fast_lio/fast_lio/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[109.249s] -- Symlinking: /home/basanta-joshi/fast_lio2_ws/install/fast_lio/include/fast_lio/fast_lio/msg/detail/pose6_d__rosidl_typesupport_introspection_cpp.hpp
+[109.262s] -- Symlinking: /home/basanta-joshi/fast_lio2_ws/install/fast_lio/share/fast_lio/environment/pythonpath.sh
+[109.276s] -- Symlinking: /home/basanta-joshi/fast_lio2_ws/install/fast_lio/share/fast_lio/environment/pythonpath.dsv
+[109.289s] -- Symlinking: /home/basanta-joshi/fast_lio2_ws/install/fast_lio/lib/python3.12/site-packages/fast_lio-0.0.0-py3.12.egg-info/PKG-INFO
+[109.302s] -- Symlinking: /home/basanta-joshi/fast_lio2_ws/install/fast_lio/lib/python3.12/site-packages/fast_lio-0.0.0-py3.12.egg-info/SOURCES.txt
+[109.316s] -- Symlinking: /home/basanta-joshi/fast_lio2_ws/install/fast_lio/lib/python3.12/site-packages/fast_lio-0.0.0-py3.12.egg-info/dependency_links.txt
+[109.329s] -- Symlinking: /home/basanta-joshi/fast_lio2_ws/install/fast_lio/lib/python3.12/site-packages/fast_lio-0.0.0-py3.12.egg-info/top_level.txt
+[109.342s] -- Symlinking: /home/basanta-joshi/fast_lio2_ws/install/fast_lio/lib/python3.12/site-packages/fast_lio/__init__.py
+[109.355s] -- Symlinking: /home/basanta-joshi/fast_lio2_ws/install/fast_lio/lib/python3.12/site-packages/fast_lio/_fast_lio_s.ep.rosidl_typesupport_c.c
+[109.368s] -- Symlinking: /home/basanta-joshi/fast_lio2_ws/install/fast_lio/lib/python3.12/site-packages/fast_lio/_fast_lio_s.ep.rosidl_typesupport_fastrtps_c.c
+[109.382s] -- Symlinking: /home/basanta-joshi/fast_lio2_ws/install/fast_lio/lib/python3.12/site-packages/fast_lio/_fast_lio_s.ep.rosidl_typesupport_introspection_c.c
+[109.394s] -- Symlinking: /home/basanta-joshi/fast_lio2_ws/install/fast_lio/lib/python3.12/site-packages/fast_lio/fast_lio_s__rosidl_typesupport_c.so
+[109.407s] -- Symlinking: /home/basanta-joshi/fast_lio2_ws/install/fast_lio/lib/python3.12/site-packages/fast_lio/fast_lio_s__rosidl_typesupport_fastrtps_c.so
+[109.419s] -- Symlinking: /home/basanta-joshi/fast_lio2_ws/install/fast_lio/lib/python3.12/site-packages/fast_lio/fast_lio_s__rosidl_typesupport_introspection_c.so
+[109.431s] -- Symlinking: /home/basanta-joshi/fast_lio2_ws/install/fast_lio/lib/python3.12/site-packages/fast_lio/msg/__init__.py
+[109.444s] -- Symlinking: /home/basanta-joshi/fast_lio2_ws/install/fast_lio/lib/python3.12/site-packages/fast_lio/msg/_pose6_d.py
+[109.457s] -- Symlinking: /home/basanta-joshi/fast_lio2_ws/install/fast_lio/lib/python3.12/site-packages/fast_lio/msg/_pose6_d_s.c
+[109.471s] -- Up-to-date symlink: /home/basanta-joshi/fast_lio2_ws/install/fast_lio/lib/python3.12/site-packages/fast_lio/fast_lio_s__rosidl_typesupport_fastrtps_c.so
+[109.472s] -- Up-to-date symlink: /home/basanta-joshi/fast_lio2_ws/install/fast_lio/lib/python3.12/site-packages/fast_lio/fast_lio_s__rosidl_typesupport_introspection_c.so
+[109.472s] -- Up-to-date symlink: /home/basanta-joshi/fast_lio2_ws/install/fast_lio/lib/python3.12/site-packages/fast_lio/fast_lio_s__rosidl_typesupport_c.so
+[109.472s] -- Symlinking: /home/basanta-joshi/fast_lio2_ws/install/fast_lio/share/fast_lio/msg/Pose6D.idl
+[109.487s] -- Symlinking: /home/basanta-joshi/fast_lio2_ws/install/fast_lio/share/fast_lio/msg/Pose6D.msg
+[109.505s] -- Symlinking: /home/basanta-joshi/fast_lio2_ws/install/fast_lio/lib/fast_lio/fastlio_mapping
+[109.526s] -- Symlinking: /home/basanta-joshi/fast_lio2_ws/install/fast_lio/share/fast_lio/config/avia.yaml
+[109.544s] -- Symlinking: /home/basanta-joshi/fast_lio2_ws/install/fast_lio/share/fast_lio/config/horizon.yaml
+[109.565s] -- Symlinking: /home/basanta-joshi/fast_lio2_ws/install/fast_lio/share/fast_lio/config/mid360.yaml
+[109.586s] -- Symlinking: /home/basanta-joshi/fast_lio2_ws/install/fast_lio/share/fast_lio/config/ouster64.yaml
+[109.607s] -- Symlinking: /home/basanta-joshi/fast_lio2_ws/install/fast_lio/share/fast_lio/config/velodyne.yaml
+[109.631s] -- Symlinking: /home/basanta-joshi/fast_lio2_ws/install/fast_lio/share/fast_lio/launch/gdb_debug_example.launch
+[109.661s] -- Symlinking: /home/basanta-joshi/fast_lio2_ws/install/fast_lio/share/fast_lio/launch/mapping.launch.py
+[109.689s] -- Symlinking: /home/basanta-joshi/fast_lio2_ws/install/fast_lio/share/fast_lio/rviz/fastlio.rviz
+[109.718s] -- Symlinking: /home/basanta-joshi/fast_lio2_ws/install/fast_lio/share/ament_index/resource_index/package_run_dependencies/fast_lio
+[109.748s] -- Symlinking: /home/basanta-joshi/fast_lio2_ws/install/fast_lio/share/ament_index/resource_index/parent_prefix_path/fast_lio
+[109.775s] -- Symlinking: /home/basanta-joshi/fast_lio2_ws/install/fast_lio/share/fast_lio/environment/ament_prefix_path.sh
+[109.798s] -- Symlinking: /home/basanta-joshi/fast_lio2_ws/install/fast_lio/share/fast_lio/environment/ament_prefix_path.dsv
+[109.816s] -- Symlinking: /home/basanta-joshi/fast_lio2_ws/install/fast_lio/share/fast_lio/environment/path.sh
+[109.832s] -- Symlinking: /home/basanta-joshi/fast_lio2_ws/install/fast_lio/share/fast_lio/environment/path.dsv
+[109.855s] -- Symlinking: /home/basanta-joshi/fast_lio2_ws/install/fast_lio/share/fast_lio/local_setup.bash
+[109.873s] -- Symlinking: /home/basanta-joshi/fast_lio2_ws/install/fast_lio/share/fast_lio/local_setup.sh
+[109.893s] -- Symlinking: /home/basanta-joshi/fast_lio2_ws/install/fast_lio/share/fast_lio/local_setup.zsh
+[109.911s] -- Symlinking: /home/basanta-joshi/fast_lio2_ws/install/fast_lio/share/fast_lio/local_setup.dsv
+[109.930s] -- Symlinking: /home/basanta-joshi/fast_lio2_ws/install/fast_lio/share/fast_lio/package.dsv
+[109.950s] -- Symlinking: /home/basanta-joshi/fast_lio2_ws/install/fast_lio/share/ament_index/resource_index/packages/fast_lio
+[109.971s] -- Symlinking: /home/basanta-joshi/fast_lio2_ws/install/fast_lio/share/fast_lio/cmake/rosidl_cmake-extras.cmake
+[109.995s] -- Symlinking: /home/basanta-joshi/fast_lio2_ws/install/fast_lio/share/fast_lio/cmake/ament_cmake_export_include_directories-extras.cmake
+[110.018s] -- Symlinking: /home/basanta-joshi/fast_lio2_ws/install/fast_lio/share/fast_lio/cmake/ament_cmake_export_libraries-extras.cmake
+[110.038s] -- Symlinking: /home/basanta-joshi/fast_lio2_ws/install/fast_lio/share/fast_lio/cmake/ament_cmake_export_targets-extras.cmake
+[110.060s] -- Symlinking: /home/basanta-joshi/fast_lio2_ws/install/fast_lio/share/fast_lio/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[110.081s] -- Symlinking: /home/basanta-joshi/fast_lio2_ws/install/fast_lio/share/fast_lio/cmake/ament_cmake_export_dependencies-extras.cmake
+[110.107s] -- Symlinking: /home/basanta-joshi/fast_lio2_ws/install/fast_lio/share/fast_lio/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[110.133s] -- Symlinking: /home/basanta-joshi/fast_lio2_ws/install/fast_lio/share/fast_lio/cmake/fast_lioConfig.cmake
+[110.163s] -- Symlinking: /home/basanta-joshi/fast_lio2_ws/install/fast_lio/share/fast_lio/cmake/fast_lioConfig-version.cmake
+[110.189s] -- Symlinking: /home/basanta-joshi/fast_lio2_ws/install/fast_lio/share/fast_lio/package.xml
+[110.215s] -- Installing: /home/basanta-joshi/fast_lio2_ws/install/fast_lio/lib/libfast_lio__rosidl_generator_c.so
+[110.216s] -- Set non-toolchain portion of runtime path of "/home/basanta-joshi/fast_lio2_ws/install/fast_lio/lib/libfast_lio__rosidl_generator_c.so" to ""
+[110.216s] -- Installing: /home/basanta-joshi/fast_lio2_ws/install/fast_lio/lib/libfast_lio__rosidl_typesupport_fastrtps_c.so
+[110.217s] -- Set non-toolchain portion of runtime path of "/home/basanta-joshi/fast_lio2_ws/install/fast_lio/lib/libfast_lio__rosidl_typesupport_fastrtps_c.so" to ""
+[110.217s] -- Installing: /home/basanta-joshi/fast_lio2_ws/install/fast_lio/lib/libfast_lio__rosidl_typesupport_fastrtps_cpp.so
+[110.218s] -- Set non-toolchain portion of runtime path of "/home/basanta-joshi/fast_lio2_ws/install/fast_lio/lib/libfast_lio__rosidl_typesupport_fastrtps_cpp.so" to ""
+[110.218s] -- Installing: /home/basanta-joshi/fast_lio2_ws/install/fast_lio/lib/libfast_lio__rosidl_typesupport_introspection_c.so
+[110.219s] -- Set non-toolchain portion of runtime path of "/home/basanta-joshi/fast_lio2_ws/install/fast_lio/lib/libfast_lio__rosidl_typesupport_introspection_c.so" to ""
+[110.219s] -- Installing: /home/basanta-joshi/fast_lio2_ws/install/fast_lio/lib/libfast_lio__rosidl_typesupport_c.so
+[110.219s] -- Set non-toolchain portion of runtime path of "/home/basanta-joshi/fast_lio2_ws/install/fast_lio/lib/libfast_lio__rosidl_typesupport_c.so" to ""
+[110.220s] -- Installing: /home/basanta-joshi/fast_lio2_ws/install/fast_lio/lib/libfast_lio__rosidl_typesupport_introspection_cpp.so
+[110.220s] -- Set non-toolchain portion of runtime path of "/home/basanta-joshi/fast_lio2_ws/install/fast_lio/lib/libfast_lio__rosidl_typesupport_introspection_cpp.so" to ""
+[110.220s] -- Installing: /home/basanta-joshi/fast_lio2_ws/install/fast_lio/lib/libfast_lio__rosidl_typesupport_cpp.so
+[110.220s] -- Set non-toolchain portion of runtime path of "/home/basanta-joshi/fast_lio2_ws/install/fast_lio/lib/libfast_lio__rosidl_typesupport_cpp.so" to ""
+[110.358s] Listing '/home/basanta-joshi/fast_lio2_ws/install/fast_lio/lib/python3.12/site-packages/fast_lio'...
+[110.358s] Compiling '/home/basanta-joshi/fast_lio2_ws/install/fast_lio/lib/python3.12/site-packages/fast_lio/__init__.py'...
+[110.359s] Listing '/home/basanta-joshi/fast_lio2_ws/install/fast_lio/lib/python3.12/site-packages/fast_lio/msg'...
+[110.359s] Compiling '/home/basanta-joshi/fast_lio2_ws/install/fast_lio/lib/python3.12/site-packages/fast_lio/msg/__init__.py'...
+[110.359s] Compiling '/home/basanta-joshi/fast_lio2_ws/install/fast_lio/lib/python3.12/site-packages/fast_lio/msg/_pose6_d.py'...
+[110.377s] -- Installing: /home/basanta-joshi/fast_lio2_ws/install/fast_lio/lib/libfast_lio__rosidl_generator_py.so
+[110.378s] -- Set non-toolchain portion of runtime path of "/home/basanta-joshi/fast_lio2_ws/install/fast_lio/lib/libfast_lio__rosidl_generator_py.so" to ""
+[110.379s] -- Installing: /home/basanta-joshi/fast_lio2_ws/install/fast_lio/share/fast_lio/cmake/export_fast_lio__rosidl_generator_cExport.cmake
+[110.379s] -- Installing: /home/basanta-joshi/fast_lio2_ws/install/fast_lio/share/fast_lio/cmake/export_fast_lio__rosidl_generator_cExport-release.cmake
+[110.380s] -- Installing: /home/basanta-joshi/fast_lio2_ws/install/fast_lio/share/fast_lio/cmake/export_fast_lio__rosidl_typesupport_fastrtps_cExport.cmake
+[110.380s] -- Installing: /home/basanta-joshi/fast_lio2_ws/install/fast_lio/share/fast_lio/cmake/export_fast_lio__rosidl_typesupport_fastrtps_cExport-release.cmake
+[110.380s] -- Installing: /home/basanta-joshi/fast_lio2_ws/install/fast_lio/share/fast_lio/cmake/export_fast_lio__rosidl_generator_cppExport.cmake
+[110.381s] -- Installing: /home/basanta-joshi/fast_lio2_ws/install/fast_lio/share/fast_lio/cmake/export_fast_lio__rosidl_typesupport_fastrtps_cppExport.cmake
+[110.381s] -- Installing: /home/basanta-joshi/fast_lio2_ws/install/fast_lio/share/fast_lio/cmake/export_fast_lio__rosidl_typesupport_fastrtps_cppExport-release.cmake
+[110.381s] -- Installing: /home/basanta-joshi/fast_lio2_ws/install/fast_lio/share/fast_lio/cmake/fast_lio__rosidl_typesupport_introspection_cExport.cmake
+[110.382s] -- Installing: /home/basanta-joshi/fast_lio2_ws/install/fast_lio/share/fast_lio/cmake/fast_lio__rosidl_typesupport_introspection_cExport-release.cmake
+[110.382s] -- Installing: /home/basanta-joshi/fast_lio2_ws/install/fast_lio/share/fast_lio/cmake/fast_lio__rosidl_typesupport_cExport.cmake
+[110.382s] -- Installing: /home/basanta-joshi/fast_lio2_ws/install/fast_lio/share/fast_lio/cmake/fast_lio__rosidl_typesupport_cExport-release.cmake
+[110.383s] -- Installing: /home/basanta-joshi/fast_lio2_ws/install/fast_lio/share/fast_lio/cmake/fast_lio__rosidl_typesupport_introspection_cppExport.cmake
+[110.383s] -- Installing: /home/basanta-joshi/fast_lio2_ws/install/fast_lio/share/fast_lio/cmake/fast_lio__rosidl_typesupport_introspection_cppExport-release.cmake
+[110.383s] -- Installing: /home/basanta-joshi/fast_lio2_ws/install/fast_lio/share/fast_lio/cmake/fast_lio__rosidl_typesupport_cppExport.cmake
+[110.383s] -- Installing: /home/basanta-joshi/fast_lio2_ws/install/fast_lio/share/fast_lio/cmake/fast_lio__rosidl_typesupport_cppExport-release.cmake
+[110.383s] -- Installing: /home/basanta-joshi/fast_lio2_ws/install/fast_lio/share/fast_lio/cmake/export_fast_lio__rosidl_generator_pyExport.cmake
+[110.383s] -- Installing: /home/basanta-joshi/fast_lio2_ws/install/fast_lio/share/fast_lio/cmake/export_fast_lio__rosidl_generator_pyExport-release.cmake
+[110.389s] Invoked command in '/home/basanta-joshi/fast_lio2_ws/build/fast_lio' returned '0': AMENT_PREFIX_PATH=/home/basanta-joshi/fast_lio2_ws/install/livox_ros_driver2:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/basanta-joshi/fast_lio2_ws/install/livox_ros_driver2:/home/basanta-joshi/fast_lio2_ws/src/ws_livox/install/livox_ros_driver2:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/basanta-joshi/fast_lio2_ws/install/livox_ros_driver2/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/basanta-joshi/fast_lio2_ws/install/livox_ros_driver2/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/basanta-joshi/fast_lio2_ws/build/fast_lio

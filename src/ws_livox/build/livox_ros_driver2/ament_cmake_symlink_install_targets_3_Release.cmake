@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/basanta-joshi/fast_lio2_ws/src/ws_livox/build/livox_ros_driver2/livox_ros_driver2_node" "TARGETS" "livox_ros_driver2_node" "DESTINATION" "lib/livox_ros_driver2")

@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/basanta-joshi/fast_lio2_ws/build/livox_ros_driver2/rosidl_generator_py/livox_ros_driver2/livox_ros_driver2_s__rosidl_typesupport_c.so" "TARGETS" "livox_ros_driver2_s__rosidl_typesupport_c" "DESTINATION" "lib/python3.12/site-packages/livox_ros_driver2")

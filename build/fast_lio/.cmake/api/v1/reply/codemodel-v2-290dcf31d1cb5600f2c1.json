@@ -1,0 +1,251 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Release-d03fd603c2e5b102af3a.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18,
+						19
+					]
+				},
+				{
+					"build" : "fast_lio__py",
+					"jsonFile" : "directory-fast_lio__py-Release-0966c8edae2781da6a73.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/basanta-joshi/fast_lio2_ws/build/fast_lio/fast_lio__py",
+					"targetIndexes" : 
+					[
+						4
+					]
+				}
+			],
+			"name" : "Release",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1
+					],
+					"name" : "fast_lio",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18,
+						19
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_fast_lio_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_fast_lio_egg-Release-c8c6efe1d4c92058725a.json",
+					"name" : "ament_cmake_python_build_fast_lio_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_symlink_fast_lio::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_symlink_fast_lio-Release-2eac7066bd2c5ba9dbd6.json",
+					"name" : "ament_cmake_python_symlink_fast_lio",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "fast_lio::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-fast_lio-Release-1b85147b33793e88faf5.json",
+					"name" : "fast_lio",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "fast_lio__cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-fast_lio__cpp-Release-76f1b7deb566622f2327.json",
+					"name" : "fast_lio__cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "fast_lio__py::@da991b4e3831ad9afc75",
+					"jsonFile" : "target-fast_lio__py-Release-4a8689f2eb95ce5c92a3.json",
+					"name" : "fast_lio__py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "fast_lio__rosidl_generator_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-fast_lio__rosidl_generator_c-Release-9dfdc643723e9a643e38.json",
+					"name" : "fast_lio__rosidl_generator_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "fast_lio__rosidl_generator_py::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-fast_lio__rosidl_generator_py-Release-1fb8b51a7ff422cd229e.json",
+					"name" : "fast_lio__rosidl_generator_py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "fast_lio__rosidl_generator_type_description::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-fast_lio__rosidl_generator_type_description-Release-cd0a4cc7e2aa24ab7512.json",
+					"name" : "fast_lio__rosidl_generator_type_description",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "fast_lio__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-fast_lio__rosidl_typesupport_c-Release-e68ca88b82b44704e43c.json",
+					"name" : "fast_lio__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "fast_lio__rosidl_typesupport_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-fast_lio__rosidl_typesupport_cpp-Release-159f035e3fc561cc9eb5.json",
+					"name" : "fast_lio__rosidl_typesupport_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "fast_lio__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-fast_lio__rosidl_typesupport_fastrtps_c-Release-2512fe264fa7096ea515.json",
+					"name" : "fast_lio__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "fast_lio__rosidl_typesupport_fastrtps_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-fast_lio__rosidl_typesupport_fastrtps_cpp-Release-db11dbfa241737daae57.json",
+					"name" : "fast_lio__rosidl_typesupport_fastrtps_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "fast_lio__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-fast_lio__rosidl_typesupport_introspection_c-Release-dc0be6b19021e48fc32d.json",
+					"name" : "fast_lio__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "fast_lio__rosidl_typesupport_introspection_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-fast_lio__rosidl_typesupport_introspection_cpp-Release-5daff64a5bd652dc9bef.json",
+					"name" : "fast_lio__rosidl_typesupport_introspection_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "fast_lio_s__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-fast_lio_s__rosidl_typesupport_c-Release-6d8acd845b07ee9c7417.json",
+					"name" : "fast_lio_s__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "fast_lio_s__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-fast_lio_s__rosidl_typesupport_fastrtps_c-Release-0239199a0abc192fa149.json",
+					"name" : "fast_lio_s__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "fast_lio_s__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-fast_lio_s__rosidl_typesupport_introspection_c-Release-3e0989e92b3e97930542.json",
+					"name" : "fast_lio_s__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "fast_lio_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-fast_lio_uninstall-Release-5601be492cf4abb3da97.json",
+					"name" : "fast_lio_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "fastlio_mapping::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-fastlio_mapping-Release-57bd30a0e4eb7a468fea.json",
+					"name" : "fastlio_mapping",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-Release-5813bfb2a28599665874.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/basanta-joshi/fast_lio2_ws/build/fast_lio",
+		"source" : "/home/basanta-joshi/fast_lio2_ws/src/FAST_LIO_ROS2"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}
